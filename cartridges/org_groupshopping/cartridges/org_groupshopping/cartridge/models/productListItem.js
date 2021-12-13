@@ -21,7 +21,6 @@ function createProductListItemObject(productListItemObject) {
     if (productListItemObject) {
 
         result.addedBy = productListItemObject.custom.addedBy;
-        
 
         return { productListItem: result };
 
